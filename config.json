@@ -3,7 +3,7 @@
     If one become unavailable, pool will choose live one.
     **/
     "node": [
-        "http://localhost:36666",
+        "http://localhost:4703",
         "http://dev.hydra.iop.global:4703",
         "http://dev.hydra.iop.global" 
     ],
@@ -12,7 +12,7 @@
     "address": "dbQvEPs7RFUpwHNqCbuwga8XCFFtKYc26a",
 
     /** Put delegate's passPhrase to make payouts. If false, pool will be in read only mode, without payouts. **/
-    "pass": "",
+    "crowd lawn cheese gesture wave patient hat document alone advice someone tone": "",
 
     /** Percentage to distribute to voters. Amount left will go to maintenace wallet **/
     "reward_percentage": 70,
