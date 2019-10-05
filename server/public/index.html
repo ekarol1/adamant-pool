@@ -74,7 +74,7 @@
                 <div class="card" style="background-color: rgb(238, 238, 238);"> <span>
                         Total forged: {{(delegate.delegate.totalForged / 100000000).toFixed(1) || 0 | numberFormat}}
                         HYD<br>
-                        Votes: {{(delegate.delegate.votesWeight / 100000000).toFixed(0) || 0 | numberFormat}} ADM<br>
+                        Votes: {{(delegate.delegate.votesWeight / 100000000).toFixed(0) || 0 | numberFormat}} HYD<br>
                         Votes count: {{delegate.delegate.voters ? delegate.delegate.voters.length : 0 | numberFormat}}
                     </span></div>
                 <div class="card" style="background-color: rgb(221, 221, 221);"><span>
@@ -146,9 +146,9 @@
                         </tr>
                         <tr v-for="(t,i) in transactions" :key="i" v-if="t.isPaginVisible!==false">
                             <td>{{i+1}}</td>
-                            <td><a :href="'https://explorer.adamant.im/address/'+t.address"
+                            <td><a :href="'http://dev.hydra.iop.global/#/'+t.address"
                                     target="_blank">{{t.address}}</a></td>
-                            <td><a :href="'https://explorer.adamant.im/tx/'+t.transactionId"
+                            <td><a :href="'http://dev.hydra.iop.global/#/'+t.transactionId"
                                     target="_blank">{{t.transactionId}}</a></td>
                             <td>{{t.payoutcount.toFixed(4) | numberFormat}}</td>
                             <td>{{moment(t.timeStamp).format(FORMAT_TRANS)}}</td>
