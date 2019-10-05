@@ -68,12 +68,12 @@
             <div class="row delegate-info">Delegate <i>{{delegate.delegate.username}}</i> distributes
                 <i>{{system.reward_percentage}}%</i>
                 rewards with payouts every <i>{{system.payoutperiod}}</i>. Minimum payout is <i>{{system.minpayout}}</i>
-                ADM.</div>
+                HYD.</div>
 
             <div id="cards" class="row">
                 <div class="card" style="background-color: rgb(238, 238, 238);"> <span>
                         Total forged: {{(delegate.delegate.totalForged / 100000000).toFixed(1) || 0 | numberFormat}}
-                        ADM<br>
+                        HYD<br>
                         Votes: {{(delegate.delegate.votesWeight / 100000000).toFixed(0) || 0 | numberFormat}} ADM<br>
                         Votes count: {{delegate.delegate.voters ? delegate.delegate.voters.length : 0 | numberFormat}}
                     </span></div>
@@ -85,7 +85,7 @@
                         Rank: {{delegate.delegate.rank | numberFormat}}
                     </span></div>
                 <div class="card" style="background-color: rgb(238, 238, 238);"> <span>
-                        Balance: {{(delegate.delegate.balance / 100000000 || 0).toFixed(3) | numberFormat}} ADM<br>
+                        Balance: {{(delegate.delegate.balance / 100000000 || 0).toFixed(3) | numberFormat}} HYD<br>
                         Forged this period: {{(system.payoutperiodForged || 0).toFixed(1) | numberFormat}}<br>
                         Pending rewards: {{(system.payoutperiodRewards || 0).toFixed(1) | numberFormat}}
                     </span></div>
@@ -161,17 +161,13 @@
     </div>
     <div class="bottomnav content">
         <div class="row bottom-links">
-            <a href="https://adamant.im" target="_blank" title="Go to ADAMANT Website">Adamant.im</a>
-            <a href="https://adamant.im/#adm-apps" target="_blank" title="Start Messaging">Messenger Apps</a>
-            <a href="https://github.com/Adamant-im/adamant-pool" target="_blank"
-                title="ADAMANT Forging Pool GitHub">GitHub</a>
-            <a href="https://medium.com/adamant-im/join-the-official-adamant-pool-d3def33fb99c" target="_blank"
-                title="Join forging and earn ADM">Join
-                Pool</a>
-            <a href="https://medium.com/adamant-im/earning-money-on-adm-forging-4c7b6eb15516" target="_blank"
-                title="Create your own ADAMANT Forging Pool and earn ADM">Create
-                your Pool</a>
-
+            <a href="https://iop.global/" target="_blank" title="Go to IOP Website">IOP</a>
+            <a href="Join to official IoP Channel" target="_blank"
+                title="https://discord.gg/N4uyku">Discord</a>
+            <a href="https://t.me/IoPofficial" target="_blank"
+                title="Telegram">Join to official IoP Channel</a>
+            <a href="http://hydra.iop.global" target="_blank"
+                title="HYDRA Explorer">HYDRA Explorer</a>
         </div>
     </div>
     <script src="/assets/components/pagin.js"></script>
