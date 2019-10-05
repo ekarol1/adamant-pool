@@ -6,19 +6,19 @@
         "http://localhost:36666",
         "https://endless.adamant.im",
         "https://clown.adamant.im",
-        "http://185.231.245.26:36666",
-        "http://80.211.177.181:36666",
-        "https://lake.adamant.im"
+        "http://35.195.150.223:4703",
+        "http://35.195.150.223",
+        "http://hydra.iop.global"
     ],
 
     /** Your delegete address. Used to fetch forging information, needed to count rewards **/
-    "address": "U9466395914658764774",
+    "address": "hGA8nouJExPzniEYQsHUET8pBg1ZJytAuP",
 
     /** Put delegate's passPhrase to make payouts. If false, pool will be in read only mode, without payouts. **/
     "passPhrase": "",
 
     /** Percentage to distribute to voters. Amount left will go to maintenace wallet **/
-    "reward_percentage": 80,
+    "reward_percentage": 75,
 
     /** Maintenace wallet to receive amount of (100-reward_percentage) to cover pool expenses
     	Put false if you want to leave it on delegate's wallet.
