@@ -6,6 +6,7 @@
         "http://localhost:4703",
         "http://dev.hydra.iop.global:4703",
         "http://dev.hydra.iop.global" 
+        "http://54.38.55.49:4703"
     ],
 
     /** Your delegete address. Used to fetch forging information, needed to count rewards **/
