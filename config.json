@@ -53,5 +53,5 @@
     "slack": "https://hooks.slack.com/services/",
 
     /** Port for pool's public Web panel **/
-    "port": 36667
+    "port": 4703
 }
