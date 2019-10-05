@@ -4,21 +4,18 @@
     **/
     "node": [
         "http://localhost:36666",
-        "https://endless.adamant.im",
-        "https://clown.adamant.im",
-        "http://35.195.150.223:4703",
-        "http://35.195.150.223",
-        "http://hydra.iop.global"
+        "http://dev.hydra.iop.global:4703",
+        "http://dev.hydra.iop.global" 
     ],
 
     /** Your delegete address. Used to fetch forging information, needed to count rewards **/
-    "address": "hGA8nouJExPzniEYQsHUET8pBg1ZJytAuP",
+    "address": "dbQvEPs7RFUpwHNqCbuwga8XCFFtKYc26a",
 
     /** Put delegate's passPhrase to make payouts. If false, pool will be in read only mode, without payouts. **/
     "passPhrase": "",
 
     /** Percentage to distribute to voters. Amount left will go to maintenace wallet **/
-    "reward_percentage": 75,
+    "reward_percentage": 70,
 
     /** Maintenace wallet to receive amount of (100-reward_percentage) to cover pool expenses
     	Put false if you want to leave it on delegate's wallet.
@@ -33,7 +30,7 @@
     	15 d - > days 1, 15 of the month
     	30 d - > 30 th of each month
     **/
-    "payoutperiod": "5d",
+    "payoutperiod": "1h",
 
     /** How many payout periods to store history data. Greater value needs more RAM.
     	If store_history is 10 and payoutperiod is 5d, data will be stored for last 50 days.
