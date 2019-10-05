@@ -12,7 +12,7 @@
     "address": "dbQvEPs7RFUpwHNqCbuwga8XCFFtKYc26a",
 
     /** Put delegate's passPhrase to make payouts. If false, pool will be in read only mode, without payouts. **/
-    "crowd lawn cheese gesture wave patient hat document alone advice someone tone": "",
+    "pass": "",
 
     /** Percentage to distribute to voters. Amount left will go to maintenace wallet **/
     "reward_percentage": 70,
